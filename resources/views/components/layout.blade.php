@@ -10,6 +10,7 @@
 
 <body>
     <main class="">
+        
         @session("success")
             <div class="success-message">
                 {{ session('success')}}
